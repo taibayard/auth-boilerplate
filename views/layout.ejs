@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Authentication</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"">
+  </head>
+  <body>
+    <% include partials/navbar %>
+    <div class="container">
+      <p>
+        <!-- <strong>User:</strong> <%- JSON.stringify(currentUser) %> -->
+      </p>
+      <div class="row">
+        <div class="col-xs-12">
+          <% include partials/alerts %>
+        </div>
+      </div>
+      <%- body %>
+    </div>
+
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+  </body>
+</html>
